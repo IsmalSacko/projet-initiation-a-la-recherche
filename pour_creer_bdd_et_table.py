@@ -24,8 +24,7 @@ donnees_a_inserer = [
     "L'explorateur Christophe Colomb a découvert l'Amérique en 1492.",
     "L'universite Lyon 2 est une universite francaise situee a Lyon, creee en 1973.",
     "Les frères Lumière sont des industriels français, pionniers du cinéma en France depuis 1895.",
-    "Le 14 juillet 1789, la prise de la Bastille a eu lieu à Paris.",
-    "Le 11 novembre 1918, l'armistice de la Première Guerre mondiale a été signé.",
+
 
 ]
 for texte in donnees_a_inserer:
