@@ -9,7 +9,7 @@ git clone https://github.com/IsmalSacko/projet-initiation-a-la-recherche.git
 6. git checkout -b main
 7. git pull origin main si nécessaire
 8. Installer les dépendances avec la commande suivante :
-9. pip install -r requirements.txt (pour installer les dépendances rapidement)
+9. pip install -r requirements.txt (pour installer les dépendances rapidement car toues les dépendances sont dans le fichier requirements.txt)
 ou en vous les installer individuellement avec la commande suivante :
 10. pip install spacy
 11. python -m spacy download fr_core_news_sm # pour télécharger le modèle français
