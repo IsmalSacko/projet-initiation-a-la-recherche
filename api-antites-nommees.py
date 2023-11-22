@@ -13,7 +13,6 @@ text = response.text
 soup = BeautifulSoup(text, "html.parser")
 clean_text = soup.get_text()
 
-
 # Charger le modèle de langue français
 nlp = spacy.load("fr_core_news_sm")
 
@@ -23,8 +22,6 @@ doc = nlp(clean_text)
 # Afficher les entités nommées détectées
 for ent in doc.ents:
     print(f"{ent.text}: {ent.label_} ({spacy.explain(ent.label_)})")
-
-
 
 
 # Créer une fonction pour créer un fichier PDF à partir d'un texte
@@ -41,6 +38,7 @@ def create_pdf(file_path, text):
     # Enregistrer le PDF
     pdf_canvas.save()
 
+
 # Utilisez le texte nettoyé obtenu précédemment
 text_to_save = clean_text
 
@@ -49,6 +47,3 @@ pdf_output_path = "output.pdf"
 
 # Créer le fichier PDF
 create_pdf(pdf_output_path, text_to_save)
-
-
-
