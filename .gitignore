@@ -1,0 +1,40 @@
+venv/
+# Commentaire : lignes commençant par '#' sont des commentaires
+
+# Ignorer les fichiers/dossiers générés par l'environnement de développement
+venv/
+node_modules/
+
+# Ignorer les fichiers de configuration système et spécifiques à l'utilisateur
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de configuration ou temporaires
+config.json
+*.log
+*.cache
+
+# Ignorer les fichiers de dépendances ou de build
+*.dll
+*.so
+*.o
+*.a
+*.exe
+*.out
+
+# Ignorer les fichiers sensibles contenant des informations personnelles
+credentials.txt
+secrets/
+
+# Ignorer les fichiers de sauvegarde automatique
+*~
+
+# Ignorer les fichiers de médias lourds (à utiliser avec Git LFS - Large File Storage)
+# *.mp4
+# *.zip
+
+# Ignorer les fichiers spécifiques à un système d'exploitation ou à un éditeur
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
