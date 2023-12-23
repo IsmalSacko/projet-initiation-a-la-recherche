@@ -64,6 +64,11 @@ if entites_normalisees:
     for entite, label in entites_normalisees:
         print(f"{entite}: {label}")
 
+# stocker les entités nommées normalisées dans un DataFrame
+df = pd.DataFrame(entites_normalisees, columns=["entite", "label"])
+df.head()
+# exporter le DataFrame au format CSV
+entite_csv = df.to_csv("entites_normalisees.csv", index=False)
 
 # fonction pour inserer les entites nommées dans une base de données sqlite à parir la liste des entités nommées normalisées
 def inserer_entites_nommees(entites_normalisees):
