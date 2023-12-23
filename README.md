@@ -13,4 +13,5 @@ git clone https://github.com/IsmalSacko/projet-initiation-a-la-recherche.git
 ou vous les installer individuellement avec les commandes suivantes :
 10. pip install spacy
 11. python -m spacy download fr_core_news_sm # pour télécharger le modèle français
-12. pip install sqlite3 # pour installer sqlite3
+12. pip install sqlite3 # pour installer sqlite3......
+
