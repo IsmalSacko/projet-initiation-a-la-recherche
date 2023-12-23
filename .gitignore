@@ -38,3 +38,8 @@ secrets/
 .idea/
 *.sublime-project
 *.sublime-workspace
+# Ignorer toutes les bases de données SQLite
+*.sqlite
+*.db
+*.sqlite3
+
