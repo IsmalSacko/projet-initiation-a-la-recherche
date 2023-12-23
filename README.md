@@ -14,4 +14,7 @@ ou vous les installer individuellement avec les commandes suivantes :
 10. pip install spacy
 11. python -m spacy download fr_core_news_sm # pour télécharger le modèle français
 12. pip install sqlite3 # pour installer sqlite3......
-
+# Test de l'application :
+Tous les fichier de modèles sont dans le dossier Models
+Pour tester l'application, il faut lancer le fichier api-antites-nommees.py
+Ou exécuter chaque fichier de modèle individuellement
