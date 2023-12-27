@@ -1,4 +1,6 @@
 # projet-initiation-a-la-recherche
+# Author: 
+ Ismaila Sacko - Tahinarisoa Daniella Rakotondratsimba - Cynthia Ramaliarisoa - Herinantenainasoa Randriamiarijaona - Verdiane Kocouvisso Plomey
 # Pour cloner le projet : 
 1. Ouvrir un terminal
 2. Se placer dans le dossier où vous voulez cloner le projet
@@ -18,3 +20,10 @@ ou vous les installer individuellement avec les commandes suivantes :
 Tous les fichier de modèles sont dans le dossier Models
 Pour tester l'application, il faut lancer le fichier api-antites-nommees.py
 Ou exécuter chaque fichier de modèle individuellement
+# Résultats :
+1. Recuperation des données depuis Gallica via l'API avec requests
+2. Traitement des données avec Spacy
+3. Nommage des entités nommées
+4.  Stockage des données dans une base de données SQLite
+4. Validation des données par comparaison avec les données de recupees par Spacy et FAIR
+
