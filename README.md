@@ -8,6 +8,7 @@
 git clone https://github.com/IsmalSacko/projet-initiation-a-la-recherche.git
 4. Se placer dans le dossier du projet avec la cd nom_du_dossier
 5. Taper les commandes suivantes :
+<<<<<<< HEAD
 6. python -m venv venv # pour créer un environnement virtuel
 8. Installer les dépendances avec la commande suivante :
 9. pip install -r requirements.txt #pour installer les dépendances rapidement car toues les dépendances sont dans le fichier requirements.txt
