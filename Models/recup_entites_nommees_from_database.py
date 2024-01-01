@@ -28,3 +28,4 @@ if entites_normalisees:
     print("Entités nommées normalisées de puis la base de données:")
     for entite, label in entites_normalisees:
         print(f"{entite}: {label}")
+        
